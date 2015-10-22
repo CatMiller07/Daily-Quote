@@ -1,6 +1,6 @@
 $(document).ready(function(){
     function getQuotes(){
-       // alert("Here I am");
+       
         $.ajax({
                 method:"POST",
                    url:"http://www.swolebrain.com:4004/quote",
